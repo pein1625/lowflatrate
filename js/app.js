@@ -451,3 +451,19 @@ $(function () {
     }
   });
 });
+
+$(function () {
+  addSwiper(".testimonial-slider", {
+    navigation: true,
+    speed: 600,
+    spaceBetween: 16,
+    breakpoints: {
+      768: {
+        slidesPerView: 2
+      },
+      992: {
+        slidesPerView: 3
+      }
+    }
+  });
+});
